@@ -1,7 +1,7 @@
 [project]
 name = "click-cli-tool"
 version = "0.1.0"
-description = "Add your description here"
+description = "click is a python tool used for cli tool creation. AIM my aim for thr project to ti practice using uv, apt , docker and click"
 readme = "README.md"
 requires-python = "==3.13.0"
 dependencies = [
