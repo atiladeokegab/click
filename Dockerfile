@@ -17,8 +17,7 @@ ENV PATH="/root/.local/bin:$PATH"
 COPY pyproject.toml uv.lock ./
 
 # Create virtualenv and install deps inside it
-RUN uv venv \
- && uv sync --python=.venv/bin/python
+RUN uv sync
 
 # Copy the rest of the app
 COPY . .
