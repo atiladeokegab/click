@@ -15,13 +15,12 @@ A minimal Python command-line application built with [Click](https://click.palle
 
 ## 📦 Installation
 
-### 🔧 Option 1: Using Docker (Recommended)
+## 🔧 Option 1: Using Docker (Recommended)
 
 ```bash
 docker build -t click-cli-tool .
 docker run --rm click-cli-tool --help
-
-
+```
 
 > ⚠️ **Important:** This command may overwrite existing files.
 > ⚠️ **Important:** The project is containerised for the sake of convince
