@@ -10,8 +10,13 @@ RUN apt-get update \
 # Install uv
 RUN curl -LsSf https://astral.sh/uv/install.sh | bash
 
+
+
 # Add uv to PATH
 ENV PATH="/root/.local/bin:$PATH"
+
+# Prevent uv from downloading Python unless necessary
+ENV UV_NO_PYTHON_DOWNLOADS=1
 
 # Copy dependency files first
 COPY pyproject.toml uv.lock ./
