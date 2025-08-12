@@ -1,6 +1,7 @@
 # 🛠️ click-cli-tool
 
 A minimal Python command-line application built with [Click](https://click.palletsprojects.com/) and managed using [uv](https://github.com/astral-sh/uv). Includes optional plotting support with Plotly.
+status = complete
 > ⚠️ **Important:** This not a project i just wanted to test out the click tool
 ---
 
